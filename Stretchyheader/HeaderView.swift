@@ -9,9 +9,6 @@
 import UIKit
 
 class HeaderView: UICollectionReusableView {
-    
-  
-    
     let image_profil: UIImageView = {
         var image = UIImageView()
         image.image = UIImage(named: "sh")
@@ -27,13 +24,22 @@ class HeaderView: UICollectionReusableView {
         self.addSubview(image_profil)
         image_profil.fillSuperview()
         
-        
+        setupVisualEffectBlur()
     
-        
-        
     }
     
+    var animator: UIViewPropertyAnimator!
     
+    fileprivate func setupVisualEffectBlur(){
+        animator = UIViewPropertyAnimator(duration: 3.0, curve: .linear, animations: { [weak self] in
+            let blurEffect = UIBlurEffect(style: .regular)
+            let visualEffectView = UIVisualEffectView(effect: blurEffect)
+            self?.addSubview(visualEffectView)
+            visualEffectView.fillSuperview()
+        })
+        
+        animator.fractionComplete = 0
+    }
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
