@@ -15,6 +15,7 @@
 		0E65ACF5221E7E9A00BCE206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E65ACF3221E7E9A00BCE206 /* LaunchScreen.storyboard */; };
 		0E65ACFD221E7F9D00BCE206 /* StretchyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E65ACFC221E7F9D00BCE206 /* StretchyHeaderViewController.swift */; };
 		0E65ACFF221E866A00BCE206 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E65ACFE221E866A00BCE206 /* HeaderView.swift */; };
+		0EE805CD2228D4450096A8F4 /* ListDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE805CC2228D4450096A8F4 /* ListDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0E65ACF6221E7E9A00BCE206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E65ACFC221E7F9D00BCE206 /* StretchyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderViewController.swift; sourceTree = "<group>"; };
 		0E65ACFE221E866A00BCE206 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		0EE805CC2228D4450096A8F4 /* ListDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				0E65ACF6221E7E9A00BCE206 /* Info.plist */,
 				0E65ACFC221E7F9D00BCE206 /* StretchyHeaderViewController.swift */,
 				0E65ACFE221E866A00BCE206 /* HeaderView.swift */,
+				0EE805CC2228D4450096A8F4 /* ListDataView.swift */,
 			);
 			path = Stretchyheader;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			files = (
 				0E65ACFD221E7F9D00BCE206 /* StretchyHeaderViewController.swift in Sources */,
 				0E399B0E2227903900CC2855 /* StretchHeaderLayput.swift in Sources */,
+				0EE805CD2228D4450096A8F4 /* ListDataView.swift in Sources */,
 				0E65ACED221E7E9800BCE206 /* StyleCustom.swift in Sources */,
 				0E65ACEB221E7E9800BCE206 /* AppDelegate.swift in Sources */,
 				0E65ACFF221E866A00BCE206 /* HeaderView.swift in Sources */,
