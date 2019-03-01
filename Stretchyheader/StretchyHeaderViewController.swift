@@ -17,8 +17,7 @@ class StretchyHeaderViewController: UICollectionViewController , UICollectionVie
         collectionView.backgroundColor =  .white
         collectionView.contentInsetAdjustmentBehavior = .never
         
-        collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: cellId)
-        
+        collectionView.register(ListDataView.self, forCellWithReuseIdentifier: cellId)
         collectionView.register(HeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: cellHeader)
     }
     
@@ -67,7 +66,7 @@ class StretchyHeaderViewController: UICollectionViewController , UICollectionVie
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath)
-        cell.backgroundColor = .black
+      
         return cell
     }
     
