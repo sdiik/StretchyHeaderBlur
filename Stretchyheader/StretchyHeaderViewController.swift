@@ -40,13 +40,7 @@ class StretchyHeaderViewController: UICollectionViewController , UICollectionVie
     
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let contentOffsetY = scrollView.contentOffset.y
-        print("---------------content scroll offset ------------------")
-        print(contentOffsetY)
-        
-        headerView?.animator.fractionComplete = abs(contentOffsetY)/100
-        
-        print("--------------nilai dari abs -------------")
-        print(abs(contentOffsetY)/100)
+        headerView?.animator.fractionComplete = abs(contentOffsetY)/100 
     }
     
     var headerView: HeaderView?
